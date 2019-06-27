@@ -1,0 +1,8 @@
+.box-right {
+    display: none;
+}
+
+.box-left {
+    height: 100%;
+    margin-top: -30px;
+}
