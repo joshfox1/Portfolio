@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #424242;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;   
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Utility classes */
+
+
+
+/* mobile nav */
+div .mobile-nav {
+    display: none;
+}
+
+/* Navbar */
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff9900;
+}
+
+.navbar ul li a:hover {
+    color: #db4214;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Section: Home */
+section#home {
+    background: url(../img/main-bg.jpeg) no-repeat center center/cover;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#home h1, 
+#home h2 {
+    font-weight: 200;
+    margin: 0.1rem; 
+}
+
+#home h1 {
+    font-size: 4.5rem;
+    margin-left: 20px;
+}
+
+#home h2 {
+    font-size: 1.8rem;
+    color: #aaa;
+    margin-left: 20px;
+}
+
+#home span {
+    color: #ff9900;
+}
+
+/* Section: About */
+
+section#about {
+    background: #2b3946;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+    width: 100%;
+}
+
+.box-left .picture-box {
+    height: 20rem;
+    width: 20rem;
+    border: solid 1px #ff9900;
+    border-radius: 50%;
+    /* background-color: #424242; */
+    background: url(../img/josh.JPG) no-repeat center center/cover;
+}
+
+.box-left .paragraph-box {
+    padding: 75px;
+    text-indent: 2em;
+    height: 20rem;
+    width: 45rem;
+    /* background-color: cyan; */
+}
+
+.box-left .paragraph-box p {
+    padding-top: 25px;
+}
+
+.box-right {
+    padding-top: 90px;
+    padding-left: 100px;
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+/* Skill showcase */
+
+.back {
+    background: none !important;
+  }
+  
+  .skill {
+    background: linear-gradient(90deg, #ff9900 0%, #db4214 100%);
+    text-align: right;
+    padding-right: 20px;
+    line-height: 30px;
+    border-radius: 0 20px 20px 0;
+  }
+
+
+  /* Section: Projects */
+
+  #projects {
+      display: flex;
+      background: #1d364e;
+  }
+
+  #projects .projects-title {
+    color: #ccc;
+    margin: 3rem 3rem 0 3rem;
+  }
+
+  #projects .projects-title h2 {
+      font-size: 3.3rem;
+  }
+
+  #projects .projects-title p {
+      font-size: 1.4rem;
+      margin-top: 0.3rem;
+  }
+
+  #projects .projects-title span {
+      color: #ff9900;
+  }
+
+  .center-showcase{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+
+  #projects .projects-showcase {
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      height: 100%;
+      justify-content: center;
+      grid-column-gap: 5rem;
+  }
+
+  #projects .projects-showcase .box {
+      height: 200px;
+      width: 200px;
+      background: url(../img/comingSoon.jpg) no-repeat center center/cover;
+      /* border: 3px #424242 solid; */
+  }
+
+
+
+  .btn {
+    display: inline-block;
+    border: 0;
+    width: 48.8%;
+    margin: .3rem 0;
+    text-align: center;
+}
+
+.btn-dark {
+    background: rgb(124, 117, 117);
+}
+
+.btn-light {
+    background: rgb(124, 117, 117);
+}
+
+.btn-light:hover {
+    background: black;
+    transition: all .5s ease-in;
+}
+
+.btn-dark:hover {
+    background: black;
+    transition: all .5s ease-in;
+}
+
+#projects .projects-showcase .item-1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-1 a:hover {
+    color: #ff9900;
+}
+
+#projects .projects-showcase .item-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-2 a:hover {
+    color: #ff9900;
+}
+
+#projects .projects-showcase .item-3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-3 a:hover {
+    color: #ff9900;
+}
+
+#projects .projects-showcase .item-4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-4 a:hover {
+    color: #ff9900;
+}
+
+#projects .projects-showcase .item-5 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-5 a:hover {
+    color: #ff9900;
+}
+
+#projects .projects-showcase .item-6 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#projects .projects-showcase .item-6 a:hover {
+    color: #ff9900;
+}
+
+  
+
+  /* Section: Contact */
+
+  #contact {
+      background: #0d243a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .contact-title {
+      margin-top: 100px;
+      color: #ccc;
+      text-transform: uppercase;
+      transition: all 4s ease-in-out;
+  }
+
+  .contact-title h1 {
+      font-size: 32px;
+      line-height: 10px;
+  }
+
+  form {
+      margin-top: 50px;
+  }
+
+  .form-control {
+      width: 600px;
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #aaa;
+      color: #aaa;
+      font-size: 18px;
+      margin-bottom: 16px;
+  }
+
+  .form-control::placeholder {
+      color: #fff;
+  }
+
+  .form-control pl {
+      color: #db4214;
+  }
+
+  input {
+      height: 45px;
+  }
+
+  form .submit {
+      background: #ff9900;
+      border-color: transparent;
+      color: #eee;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 50px;
+      margin-top: 20px;
+  }
+
+  form .submit:hover {
+      background: #db4214;
+      transition: all 1.4s;
+  }
