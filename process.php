@@ -2,7 +2,7 @@
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['messages'];
+$message = $_POST['message'];
 
 $email_from = 'joshfox@foxwebdev.com';
 
@@ -12,7 +12,7 @@ $email_body = "Username: $name.\n".
                 "User Email: $email.\n".
                     "User Message: $message.\n";
 
-$to = "joshfox@foxweb.com";
+$to = "joshfox@foxwebdev.com";
 
 $headers = "From: $email_from \r\n";
 
