@@ -14,9 +14,10 @@
 
     <script src="https://kit.fontawesome.com/d0f5647036.js"></script>
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
-    <link rel="stylesheet" media="screen and (max-width: 1100px" href="/css/widescreen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px" href="css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 325px" href="css/smallest.css">
 
 </head>
 <body>
