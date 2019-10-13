@@ -14,10 +14,10 @@
 
     <script src="https://kit.fontawesome.com/d0f5647036.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-    <link rel="stylesheet" media="screen and (max-width: 325px)" href="css/smallest.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px" href="/css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 325px" href="/css/smallest.css">
 
 </head>
 <body>
@@ -80,7 +80,7 @@
             <div class="box-left">
                 <div class="picture-box"></div>
                 <div class="paragraph-box">
-                    <p>Hello! My name is Josh. I am a self-taught Web Developer from Fargo, ND. When I am not working I enjoy things like traveling, camping, and eating at our local Food Trucks. I am knowledgable in front-end Web Development, and am currently studying Android Development and Java.
+                    <p>Hello! My name is Josh. I am a self-taught Web Developer from Fargo, ND. When I am not working I enjoy things like traveling, camping, and eating at our local Food Trucks. I am knowledgable in front-end Web Development, and am currently studying App Development and Java.
                     </p>
                 </div>
             </div>
@@ -113,14 +113,14 @@
                 </div>
                 
                 <div>
-                    <p class="wide">Java</p>
-                    <div class="back skillbar clearfix" data-percent="10%">
+                    <p class="wide">App Development</p>
+                    <div class="back skillbar clearfix" data-percent="30%">
                         <div class="skill skillbar-bar" style="height:28px;width:0%">30%</div>
                     </div>
                 </div>
 
                 <div>
-                    <p class="wide">Android Development</p>
+                    <p class="wide">Java</p>
                     <div class="back skillbar clearfix" data-percent="10%">
                         <div class="skill skillbar-bar" style="height:28px;width:0%">10%</div>
                     </div>
@@ -144,12 +144,12 @@
             <div class="projects-showcase">
 
                 <div class="item-1">
-                    <div class="box"></div>
-                    <a href="#" class="btn btn-light">
+                    <div class="box1"></div>
+                    <a href="https://joshfox1.github.io/ModellasCoffee/#menu" class="btn btn-light">
                         <i class="fas fa-eye"></i>Project
                     </a>
 
-                    <a href="#" class="btn btn-dark">
+                    <a href="https://github.com/joshfox1/ModellasCoffee" class="btn btn-dark">
                         <i class="fab fa-github"></i>Github
                     </a>
                 </div>
